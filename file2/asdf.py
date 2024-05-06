@@ -81,8 +81,8 @@ def main(input_text):
     detected_emotion = detect_emotion(input_text)
     print("emotion :", detected_emotion)
     # Google Custom Search API Key and Custom Search Engine ID
-    api_key = "AIzaSyCEU_HUGZ4MhycnhhOB0Ucy-K0HBcModEg"
-    cx = "858148054fa214df9"
+    api_key = " "
+    cx = ""
 
     # Step 2: Search for Related Images
     image_urls = search_for_images(detected_emotion, api_key, cx)
